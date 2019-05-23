@@ -1,0 +1,5 @@
+### What is this Repo
+
+Most people in the MagicMirror Community are aware of [MMM-GoogleMapsTraffic](https://github.com/vicmora/MMM-GoogleMapsTraffic) (props to @vicmora) and how valuable it is to see a map with real-time traffic data. The one thing that I saw was missing is that the map was static, aka you supplied latitude and longitude and that was it. I extended it to support location lookup via the [Google Geocode Api](https://developers.google.com/maps/documentation/geocoding/intro). All the same stuff applies, you need a developer account that has access to the Api.
+
+Out of the box, the module is the exact same as the original, however if you connect it to my other module extension [Isaac's MMM-Voice-Command](https://github.com/isaac2004/MMM-Voice-Commands) to wire up search via speech. More info on that on the other repo.
